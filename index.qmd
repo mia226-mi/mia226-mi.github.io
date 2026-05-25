@@ -1,5 +1,7 @@
 ---
 title: "Miao Liu Portfolio"
+format: html
+css: styles.css
 ---
 
 This is a Quarto website.
