@@ -2,4 +2,14 @@
 title: "About"
 ---
 
-About this site
+# About This Site
+
+This website was built using Quarto on an AWS EC2 Ubuntu instance.
+
+It includes:
+- Python code execution
+- GitHub Pages deployment
+- Quarto website rendering
+- Data analysis examples
+
+Created by Miao Liu.

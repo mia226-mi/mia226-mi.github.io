@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About This Site\nThis website was built using Quarto on an AWS EC2 Ubuntu instance.\nIt includes: - Python code execution - GitHub Pages deployment - Quarto website rendering - Data analysis examples\nCreated by Miao Liu."
   },
   {
     "objectID": "index.html",
