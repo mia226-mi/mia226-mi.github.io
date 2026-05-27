@@ -4,7 +4,7 @@ format: html
 css: styles.css
 ---
 
-# Miao Liu Portfolio
+
 
 ## About Me
 

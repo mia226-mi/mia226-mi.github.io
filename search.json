@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Miao Liu Portfolio",
     "section": "",
-    "text": "I am a graduate student in Business Analytics at Boston University.\n\n\n\n\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"Role\": [\"Data Analyst\", \"Business Analyst\", \"Marketing Analyst\"],\n    \"Skill\": [\"Python\", \"SQL\", \"Tableau\"]\n})\n\ndf\n\n\n\n\n\n\n\n\nRole\nSkill\n\n\n\n\n0\nData Analyst\nPython\n\n\n1\nBusiness Analyst\nSQL\n\n\n2\nMarketing Analyst\nTableau\n\n\n\n\n\n\n\n\n\n\n\nData Analytics\nMachine Learning\nBusiness Intelligence\nAI Trends"
+    "text": "I am a graduate student in Business Analytics at Boston University."
   },
   {
     "objectID": "index.html#about-me",
@@ -24,14 +24,14 @@
     "objectID": "index.html#python-data-example",
     "href": "index.html#python-data-example",
     "title": "Miao Liu Portfolio",
-    "section": "",
-    "text": "import pandas as pd\n\ndf = pd.DataFrame({\n    \"Role\": [\"Data Analyst\", \"Business Analyst\", \"Marketing Analyst\"],\n    \"Skill\": [\"Python\", \"SQL\", \"Tableau\"]\n})\n\ndf\n\n\n\n\n\n\n\n\nRole\nSkill\n\n\n\n\n0\nData Analyst\nPython\n\n\n1\nBusiness Analyst\nSQL\n\n\n2\nMarketing Analyst\nTableau"
+    "section": "Python Data Example",
+    "text": "Python Data Example\n\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"Role\": [\"Data Analyst\", \"Business Analyst\", \"Marketing Analyst\"],\n    \"Skill\": [\"Python\", \"SQL\", \"Tableau\"]\n})\n\ndf\n\n\n\n\n\n\n\n\nRole\nSkill\n\n\n\n\n0\nData Analyst\nPython\n\n\n1\nBusiness Analyst\nSQL\n\n\n2\nMarketing Analyst\nTableau"
   },
   {
     "objectID": "index.html#project-interests",
     "href": "index.html#project-interests",
     "title": "Miao Liu Portfolio",
-    "section": "",
-    "text": "Data Analytics\nMachine Learning\nBusiness Intelligence\nAI Trends"
+    "section": "Project Interests",
+    "text": "Project Interests\n\nData Analytics\nMachine Learning\nBusiness Intelligence\nAI Trends"
   }
 ]
