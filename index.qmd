@@ -4,6 +4,28 @@ format: html
 css: styles.css
 ---
 
-This is a Quarto website.
+# Miao Liu Portfolio
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## About Me
+
+I am a graduate student in Business Analytics at Boston University.
+
+## Python Data Example
+
+```{python}
+import pandas as pd
+
+df = pd.DataFrame({
+    "Role": ["Data Analyst", "Business Analyst", "Marketing Analyst"],
+    "Skill": ["Python", "SQL", "Tableau"]
+})
+
+df
+```
+
+## Project Interests
+
+- Data Analytics
+- Machine Learning
+- Business Intelligence
+- AI Trends
