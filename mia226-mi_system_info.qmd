@@ -2,7 +2,7 @@
 title: "Assignment 01"
 subtitle: "System Information Proof"
 author: "Miao Liu"
-format: 
+format:
   docx: default
 ---
 
