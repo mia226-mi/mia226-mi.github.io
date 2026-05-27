@@ -76,3 +76,20 @@ ol {
 .quarto-title h1.title {
   display: none;
 }
+.navbar .nav-link,
+.navbar .nav-link span,
+.navbar .menu-text,
+.navbar a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: 0 0 8px rgba(103, 232, 249, 0.9);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link.active span {
+  color: #67e8f9 !important;
+}
+
+.navbar .navbar-title {
+  color: #111827 !important;
+}
