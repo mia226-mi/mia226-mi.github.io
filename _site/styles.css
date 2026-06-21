@@ -1,95 +1,396 @@
 body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: #e5f6ff;
-  padding: 60px 10%;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.25), transparent 25%),
-    radial-gradient(circle at 80% 10%, rgba(99, 102, 241, 0.35), transparent 25%),
-    linear-gradient(135deg, #020617, #0f172a 55%, #111827);
-  background-attachment: fixed;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(0,255,255,0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,255,255,0.08) 1px, transparent 1px);
-  background-size: 42px 42px;
-  pointer-events: none;
-  animation: gridMove 12s linear infinite;
-}
-
-@keyframes gridMove {
-  from { background-position: 0 0; }
-  to { background-position: 42px 42px; }
-}
-
-h1 {
-  font-size: 56px;
-  color: #67e8f9;
-  text-shadow: 0 0 20px rgba(103,232,249,0.8);
-}
-
-h2 {
-  color: #a78bfa;
-  margin-top: 38px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-p, li {
-  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Arial, sans-serif;
+  background: #f7f8fb;
+  color: #111827;
   line-height: 1.7;
-  background: rgba(15, 23, 42, 0.75);
-  border: 1px solid rgba(103, 232, 249, 0.35);
-  border-radius: 18px;
-  padding: 18px 22px;
-  box-shadow: 0 0 25px rgba(34, 211, 238, 0.12);
-  backdrop-filter: blur(8px);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-p:hover, li:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 0 35px rgba(34, 211, 238, 0.35);
-}
-
-ol {
-  padding-left: 24px;
-}
-.navbar a,
-.navbar-title,
-.nav-link,
-.menu-text {
-  color: #ffffff !important;
-  font-weight: 700;
 }
 
 .navbar {
-  background: rgba(15, 23, 42, 0.95) !important;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid #e5e7eb;
 }
 
-.quarto-title h1.title {
-  display: none;
-}
-.navbar .nav-link,
-.navbar .nav-link span,
-.navbar .menu-text,
-.navbar a {
-  color: #ffffff !important;
-  opacity: 1 !important;
-  text-shadow: 0 0 8px rgba(103, 232, 249, 0.9);
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
-.navbar .nav-link.active,
-.navbar .nav-link.active span {
-  color: #67e8f9 !important;
+.nav-link {
+  font-weight: 500;
+  color: #374151;
 }
 
-.navbar .navbar-title {
+.nav-link:hover {
+  color: #2563eb;
+}
+
+main.content {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 850;
+  letter-spacing: -0.06em;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.hero h2 {
+  font-size: 1.45rem;
+  font-weight: 650;
+  color: #2563eb;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  max-width: 680px;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+  border: 6px solid white;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  margin-top: 1.2rem;
+  margin-right: 0.8rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #111827;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-secondary {
+  background: white;
   color: #111827 !important;
+  border: 1px solid #d1d5db;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-weight: 750;
+  color: #111827;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.03em;
+}
+
+a {
+  color: #2563eb;
+}
+
+section.level2,
+section.level3 {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  padding: 1.4rem 1.6rem;
+  margin: 1.4rem 0;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
+}
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero p {
+    margin: auto;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero-image img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    pointer-events: none;
+
+    background-image:
+        radial-gradient(circle, rgba(99, 102, 241, 0.18) 7px, transparent 8px),
+        radial-gradient(circle, rgba(56, 189, 248, 0.14) 5px, transparent 6px),
+        radial-gradient(circle, rgba(168, 85, 247, 0.12) 9px, transparent 10px);
+
+    background-size:
+        260px 260px,
+        340px 340px,
+        520px 520px;
+
+    background-position:
+        120px 140px,
+        220px 180px,
+        260px 180px;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+
+    background:
+        radial-gradient(circle at 85% 20%, rgba(99, 102, 241, 0.12), transparent 260px),
+        radial-gradient(circle at 20% 75%, rgba(56, 189, 248, 0.10), transparent 280px);
+}
+
+
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 70px rgba(15, 23, 42, 0.12);
+}
+
+.hero-image img {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 30px 80px rgba(37, 99, 235, 0.22);
+}
+
+.btn-primary,
+.btn-secondary {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 35px rgba(15, 23, 42, 0.15);
+}
+
+
+/* ==========================
+Background Decorations
+========================== */
+
+body{
+    background: #fafbff;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-3;
+    pointer-events:none;
+
+    background:
+
+    radial-gradient(
+        circle at 8% 35%,
+        rgba(147,197,253,.12) 0,
+        rgba(147,197,253,.12) 130px,
+        transparent 131px),
+
+    radial-gradient(
+        circle at 90% 15%,
+        rgba(196,181,253,.12) 0,
+        rgba(196,181,253,.12) 100px,
+        transparent 101px),
+
+    radial-gradient(
+        circle at 75% 85%,
+        rgba(167,243,208,.10) 0,
+        rgba(167,243,208,.10) 110px,
+        transparent 111px);
+}
+
+
+body::after{
+    content:"";
+    position: fixed;
+    inset:0;
+    z-index:-2;
+    pointer-events:none;
+
+    background:
+    radial-gradient(circle at 90% 20%,
+    rgba(184,172,255,.15) 0,
+    rgba(184,172,255,.15) 70px,
+    transparent 71px),
+
+    radial-gradient(circle at 20% 75%,
+    rgba(147,197,253,.12) 0,
+    rgba(147,197,253,.12) 120px,
+    transparent 121px),
+
+    radial-gradient(circle at 75% 90%,
+    rgba(167,243,208,.12) 0,
+    rgba(167,243,208,.12) 90px,
+    transparent 91px);
+}
+
+
+/* ==========================
+Hero section
+========================== */
+
+.hero{
+    padding-top:25px;
+    padding-bottom:40px;
+
+    gap:2rem;
+}
+
+.hero h1{
+    font-size:3.3rem;
+    font-weight:800;
+    letter-spacing:-2px;
+    line-height:1.05;
+    color:#0f172a;
+}
+
+.hero h2{
+    color:#5b6ef5;
+    font-weight:700;
+}
+
+.hero-image img{
+    width:260px;
+    border-radius:50%;
+    border:8px solid white;
+
+    box-shadow:
+    0 0 0 4px rgba(109,151,255,.25),
+    0 25px 60px rgba(0,0,0,.12);
+
+    transition:.4s;
+}
+
+.hero-image img:hover{
+    transform:translateY(-5px);
+}
+
+
+/* ==========================
+Cards
+========================== */
+
+.card{
+    background:white;
+    border:none;
+    border-radius:30px;
+    padding:1.8rem;
+
+    box-shadow:
+    0 15px 40px rgba(15,23,42,.06);
+
+    transition:.3s;
+    max-width:550px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 30px 60px rgba(15,23,42,.12);
+}
+
+
+/* ==========================
+Buttons
+========================== */
+
+.btn-primary{
+    border-radius:50px;
+    padding:14px 28px;
+
+    background: #111827;
+    border:none;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.15);
+}
+
+.btn-secondary{
+    border-radius:50px;
+}
+
+
+/* ==========================
+Navbar
+========================== */
+
+.navbar{
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:25px;
+
+    width:90%;
+    margin:auto;
+    margin-top:18px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.05);
 }

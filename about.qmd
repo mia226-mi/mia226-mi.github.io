@@ -1,15 +1,37 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-# About This Site
 
-This website was built using Quarto on an AWS EC2 Ubuntu instance.
+Hello! My name is **Miao Liu**, and and I hold a Master of Science in **Applied Business Analytics** from **Boston University**.
 
-It includes:
-- Python code execution
-- GitHub Pages deployment
-- Quarto website rendering
-- Data analysis examples
+I have experience in business operations, analytics, and data visualization. My interests include using data to solve real-world business problems and creating meaningful insights through analytical tools.
+
+## Education
+
+### Boston University
+**Master of Science in Applied Business Analytics**
+
+
+## Technical Skills
+
+- Python
+- SQL
+- R
+- Excel
+- Power BI
+- Tableau
+- Git and GitHub
+- PySpark
+- Machine Learning Fundamentals
+- Data Visualization
+
+## Interests
+
+Outside of academics, I enjoy exploring technology, data science, fitness, and continuous learning.
+
+## Career Goals
+
+My long-term goal is to become a Business Analyst or Data Analyst and help organizations make better decisions through data-driven solutions.
 
 Created by Miao Liu.

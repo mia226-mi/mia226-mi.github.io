@@ -1,0 +1,45 @@
+---
+title: "CV"
+---
+## Download Resume
+
+[📄 Download My Resume](66Miao_Liu_Resume.pdf)
+
+
+# Curriculum Vitae
+
+## Professional Summary
+
+I hold a Master of Science in Applied Business Analytics (STEM) from Boston University. My experience includes business analytics, data visualization, dashboard development, and statistical modeling. I am interested in Business Analyst and Data Analyst opportunities and enjoy using data to drive business decisions.
+
+## Education
+
+### Boston University
+
+**M.S. in Applied Business Analytics (STEM)**
+
+GPA: 3.77
+
+### Ningbo University of Technology
+
+**B.A. in Advertising**
+
+---
+
+## Technical Skills
+
+- Python
+- SQL
+- R
+- Power BI
+- Tableau
+- PySpark
+- Machine Learning
+- Data Visualization
+- Excel
+- Git and GitHub
+
+---
+
+
+For more details regarding my education, experience, and projects, please download the PDF version of my resume.

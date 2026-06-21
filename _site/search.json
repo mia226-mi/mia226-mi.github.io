@@ -1,37 +1,170 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "About This Site\nThis website was built using Quarto on an AWS EC2 Ubuntu instance.\nIt includes: - Python code execution - GitHub Pages deployment - Quarto website rendering - Data analysis examples\nCreated by Miao Liu."
+    "text": "Developed a large-scale data analysis project using PySpark and Python. Built visualizations to analyze salary distributions, education requirements, remote work types, and occupation characteristics.\nTools Used\n\nPython\nPySpark\nPandas\nMatplotlib\nSeaborn\n\n\n\n\n\nAnalyzed thousands of job postings to investigate how artificial intelligence and machine learning skills have influenced the labor market.\nTopics\n\nAI-related skills\nSalary trends\nIndustry demand\nOccupation analysis\n\nTools Used\n\nPython\nSQL\nPySpark\nPlotly\n\n\n\n\n\nCreated interactive dashboards to explore housing prices and market trends in New York City.\nTools Used\n\nPower BI\nR\nData Visualization\n\n\n\n\n\nCompleted multiple analytics assignments involving:\n\nData Cleaning\nExploratory Data Analysis\nStatistical Analysis\nData Visualization\nBig Data Processing\n\nTools Used\n\nPython\nSQL\nR\nTableau\nPower BI\nGitHub"
+  },
+  {
+    "objectID": "projects.html#big-data-visualization-with-pyspark",
+    "href": "projects.html#big-data-visualization-with-pyspark",
+    "title": "Projects",
+    "section": "",
+    "text": "Developed a large-scale data analysis project using PySpark and Python. Built visualizations to analyze salary distributions, education requirements, remote work types, and occupation characteristics.\nTools Used\n\nPython\nPySpark\nPandas\nMatplotlib\nSeaborn"
+  },
+  {
+    "objectID": "projects.html#ai-job-market-analysis",
+    "href": "projects.html#ai-job-market-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "Analyzed thousands of job postings to investigate how artificial intelligence and machine learning skills have influenced the labor market.\nTopics\n\nAI-related skills\nSalary trends\nIndustry demand\nOccupation analysis\n\nTools Used\n\nPython\nSQL\nPySpark\nPlotly"
+  },
+  {
+    "objectID": "projects.html#nyc-housing-market-dashboard",
+    "href": "projects.html#nyc-housing-market-dashboard",
+    "title": "Projects",
+    "section": "",
+    "text": "Created interactive dashboards to explore housing prices and market trends in New York City.\nTools Used\n\nPower BI\nR\nData Visualization"
+  },
+  {
+    "objectID": "projects.html#data-analytics-projects",
+    "href": "projects.html#data-analytics-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Completed multiple analytics assignments involving:\n\nData Cleaning\nExploratory Data Analysis\nStatistical Analysis\nData Visualization\nBig Data Processing\n\nTools Used\n\nPython\nSQL\nR\nTableau\nPower BI\nGitHub"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Miao Liu Portfolio",
+    "title": "Miao Liu",
     "section": "",
-    "text": "I am a graduate student in Business Analytics at Boston University."
+    "text": "I am an Applied Business Analytics graduate from Boston University with experience in business analysis, dashboard development, and data-driven problem solving.\nI enjoy transforming complex data into clear insights that support better business decisions.\nDownload Resume Contact Me"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Miao Liu Portfolio",
+    "objectID": "index.html#business-analytics-data-visualization-data-driven-strategy",
+    "href": "index.html#business-analytics-data-visualization-data-driven-strategy",
+    "title": "Miao Liu",
     "section": "",
-    "text": "I am a graduate student in Business Analytics at Boston University."
+    "text": "I am an Applied Business Analytics graduate from Boston University with experience in business analysis, dashboard development, and data-driven problem solving.\nI enjoy transforming complex data into clear insights that support better business decisions.\nDownload Resume Contact Me"
   },
   {
-    "objectID": "index.html#python-data-example",
-    "href": "index.html#python-data-example",
-    "title": "Miao Liu Portfolio",
-    "section": "Python Data Example",
-    "text": "Python Data Example\n\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"Role\": [\"Data Analyst\", \"Business Analyst\", \"Marketing Analyst\"],\n    \"Skill\": [\"Python\", \"SQL\", \"Tableau\"]\n})\n\ndf\n\n\n\n\n\n\n\n\nRole\nSkill\n\n\n\n\n0\nData Analyst\nPython\n\n\n1\nBusiness Analyst\nSQL\n\n\n2\nMarketing Analyst\nTableau"
+    "objectID": "index.html#core-strengths",
+    "href": "index.html#core-strengths",
+    "title": "Miao Liu",
+    "section": "Core Strengths",
+    "text": "Core Strengths\n\n\nAnalytics\nSQL, Python, R, statistical modeling, and business problem solving.\n\n\nVisualization\nPower BI, Tableau, Matplotlib, Seaborn, and executive dashboard design.\n\n\nBusiness Insight\nTurning data into practical recommendations for operations, marketing, and strategy."
   },
   {
-    "objectID": "index.html#project-interests",
-    "href": "index.html#project-interests",
-    "title": "Miao Liu Portfolio",
-    "section": "Project Interests",
-    "text": "Project Interests\n\nData Analytics\nMachine Learning\nBusiness Intelligence\nAI Trends"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Thank you for visiting my portfolio.\n\n\nmiaoliu6677@gmail.com\n\n\n\nwww.linkedin.com/in/miao-liu-97a19a193\n\n\n\nhttps://github.com/mia226-mi\n\n\n\n(707)749-8628\n\n\n\nUnited States\nI am always open to connecting with professionals and discussing opportunities related to business analytics and data analytics."
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "miaoliu6677@gmail.com"
+  },
+  {
+    "objectID": "contact.html#linkedin",
+    "href": "contact.html#linkedin",
+    "title": "Contact",
+    "section": "",
+    "text": "www.linkedin.com/in/miao-liu-97a19a193"
+  },
+  {
+    "objectID": "contact.html#github",
+    "href": "contact.html#github",
+    "title": "Contact",
+    "section": "",
+    "text": "https://github.com/mia226-mi"
+  },
+  {
+    "objectID": "contact.html#phone-number",
+    "href": "contact.html#phone-number",
+    "title": "Contact",
+    "section": "",
+    "text": "(707)749-8628"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "",
+    "text": "United States\nI am always open to connecting with professionals and discussing opportunities related to business analytics and data analytics."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello! My name is Miao Liu, and and I hold a Master of Science in Applied Business Analytics from Boston University.\nI have experience in business operations, analytics, and data visualization. My interests include using data to solve real-world business problems and creating meaningful insights through analytical tools."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBoston University\nMaster of Science in Applied Business Analytics"
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nPython\nSQL\nR\nExcel\nPower BI\nTableau\nGit and GitHub\nPySpark\nMachine Learning Fundamentals\nData Visualization"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests\nOutside of academics, I enjoy exploring technology, data science, fitness, and continuous learning."
+  },
+  {
+    "objectID": "about.html#career-goals",
+    "href": "about.html#career-goals",
+    "title": "About Me",
+    "section": "Career Goals",
+    "text": "Career Goals\nMy long-term goal is to become a Business Analyst or Data Analyst and help organizations make better decisions through data-driven solutions.\nCreated by Miao Liu."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "📄 Download My Resume"
+  },
+  {
+    "objectID": "cv.html#download-resume",
+    "href": "cv.html#download-resume",
+    "title": "CV",
+    "section": "",
+    "text": "📄 Download My Resume"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "CV",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nI hold a Master of Science in Applied Business Analytics (STEM) from Boston University. My experience includes business analytics, data visualization, dashboard development, and statistical modeling. I am interested in Business Analyst and Data Analyst opportunities and enjoy using data to drive business decisions."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nBoston University\nM.S. in Applied Business Analytics (STEM)\nGPA: 3.77\n\n\nNingbo University of Technology\nB.A. in Advertising"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nPython\nSQL\nR\nPower BI\nTableau\nPySpark\nMachine Learning\nData Visualization\nExcel\nGit and GitHub\n\n\nFor more details regarding my education, experience, and projects, please download the PDF version of my resume."
   }
 ]

@@ -1,31 +1,47 @@
 ---
-title: "Miao Liu Portfolio"
-format: html
-css: styles.css
+title: "Miao Liu"
 ---
 
+::: {.hero}
+::: {.hero-text}
 
+# Hi, I'm Miao Liu
 
-## About Me
+## Business Analytics | Data Visualization | Data-Driven Strategy
 
-I am a graduate student in Business Analytics at Boston University.
+I am an Applied Business Analytics graduate from Boston University with experience in business analysis, dashboard development, and data-driven problem solving.
 
-## Python Data Example
+I enjoy transforming complex data into clear insights that support better business decisions.
 
-```{python}
-import pandas as pd
+[Download Resume](66Miao_Liu_Resume.pdf){.btn-primary}
+[Contact Me](contact.qmd){.btn-secondary}
 
-df = pd.DataFrame({
-    "Role": ["Data Analyst", "Business Analyst", "Marketing Analyst"],
-    "Skill": ["Python", "SQL", "Tableau"]
-})
+:::
 
-df
-```
+::: {.hero-image}
 
-## Project Interests
+![](headshot.jpeg)
 
-- Data Analytics
-- Machine Learning
-- Business Intelligence
-- AI Trends
+:::
+:::
+
+## Core Strengths
+
+::: {.cards}
+
+::: {.card}
+### Analytics
+SQL, Python, R, statistical modeling, and business problem solving.
+:::
+
+::: {.card}
+### Visualization
+Power BI, Tableau, Matplotlib, Seaborn, and executive dashboard design.
+:::
+
+::: {.card}
+### Business Insight
+Turning data into practical recommendations for operations, marketing, and strategy.
+:::
+
+:::

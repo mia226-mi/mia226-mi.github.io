@@ -1,0 +1,70 @@
+---
+title: "Projects"
+---
+
+# Academic Projects
+
+## Big Data Visualization with PySpark
+
+Developed a large-scale data analysis project using PySpark and Python. Built visualizations to analyze salary distributions, education requirements, remote work types, and occupation characteristics.
+
+**Tools Used**
+
+- Python
+- PySpark
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## AI Job Market Analysis
+
+Analyzed thousands of job postings to investigate how artificial intelligence and machine learning skills have influenced the labor market.
+
+**Topics**
+
+- AI-related skills
+- Salary trends
+- Industry demand
+- Occupation analysis
+
+**Tools Used**
+
+- Python
+- SQL
+- PySpark
+- Plotly
+
+---
+
+## NYC Housing Market Dashboard
+
+Created interactive dashboards to explore housing prices and market trends in New York City.
+
+**Tools Used**
+
+- Power BI
+- R
+- Data Visualization
+
+---
+
+## Data Analytics Projects
+
+Completed multiple analytics assignments involving:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Statistical Analysis
+- Data Visualization
+- Big Data Processing
+
+**Tools Used**
+
+- Python
+- SQL
+- R
+- Tableau
+- Power BI
+- GitHub
