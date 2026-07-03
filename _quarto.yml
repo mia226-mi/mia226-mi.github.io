@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: .
-  
+
 website:
   title: "Miao Liu Portfolio"
   navbar:
@@ -23,4 +23,4 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false

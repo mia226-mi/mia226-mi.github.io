@@ -1,5 +1,5 @@
 ---
-title: "Miao Liu"
+title: ""
 ---
 
 ::: {.hero}
